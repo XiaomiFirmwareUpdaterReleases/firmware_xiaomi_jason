@@ -7,7 +7,7 @@ before_install:
   - wget -q https://github.com/XiaomiFirmwareUpdater/Scripts/raw/master/getversion.sh
 
 script:
-  - chmod +x device.sh && chmod +x script.sh
+  - chmod +x device.sh script.sh getversion.sh
   - ./device.sh
 
 deploy:
